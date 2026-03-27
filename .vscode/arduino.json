@@ -1,0 +1,11 @@
+{
+    "port": "COM23",
+    "_board": "rp2040:rp2040:seeed_xiao_rp2040",
+    "_board": "rp2040:rp2040:seeed_xiao_rp2350",
+    "board": "rp2040:rp2040:waveshare_rp2040_zero",
+    "_board": "rp2040:rp2040:waveshare_rp2350_zero",
+    "_extra_flags": "-DMB_MAJOR=0 -DMB_MINOR=9 -DMB_PATCH=0 -DDEBUG",
+    "_extra_flags": "-DMB_MAJOR=1 -DMB_MINOR=0 -DMB_PATCH=0 -DDEBUG",
+    "extra_flags": "-DMB_MAJOR=2 -DMB_MINOR=1 -DMB_PATCH=0 -DDEBUG",
+    "configuration": "usbstack=tinyusb"
+}

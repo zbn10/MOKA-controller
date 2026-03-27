@@ -1,0 +1,4 @@
+#pragma once
+
+#define DEBUGLOG_DEFAULT_LOG_LEVEL_TRACE
+#define LOG_PREAMBLE __COUNTER__, LOG_SHORT_FILENAME, LOG_MACRO_APPEND_STR(L.__LINE__), __func__, ":"
